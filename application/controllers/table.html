@@ -1,0 +1,29 @@
+<html>
+    <head>
+ 
+        <title>Create Table Dynamically</title>
+        <style>
+            input{width:150px; height:35px}
+        </style>
+    </head>
+ 
+    <body>
+        <form method="post" action ="table.php">
+            <table border="1" width="350px">
+                <tr>
+                    <td>Enter number of Rows</td>
+                    <td><input type="text" name="rows"/></td>
+                </tr>
+                <tr>
+                    <td>Enter number of Columns</td>
+                    <td><input type="text" name="columns"/></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                    <input type="submit" value="Create Table" name="create"/>
+                    </td>
+                </tr>
+            </table>
+        </form>    
+    </body>
+</html>
